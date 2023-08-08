@@ -1,0 +1,63 @@
+body{
+    background-color: #deefde;
+    font-family: 'Markazi Text',serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+#logo{
+    width:min-content;
+}
+header > image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+
+    background-color: darkgrey;
+    height: 39px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+   
+}
+nav li{
+    display: inline-block;
+}
+#discount{
+    background-image: url(pasta.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+article{
+    background-color: bisque;
+    padding: 5px;
+    border: 5px;
+    border-radius: 15px;
+}
+div{
+    border: 5px;
+    padding: 5px;
+    display: flex;
+    
+}
+
+.part{
+    border: 5px;
+    padding: 5px;
+}
+footer div{
+    flex: 1;
+}
+#Copyright{
+    text-align: right;
+}
